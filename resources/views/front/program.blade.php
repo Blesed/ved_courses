@@ -11,12 +11,12 @@
     </div>
     <div class="container">
         <!--<a class="breadcrumbs" href="#">Головна сторінка / Курс назва</a> -->
-        <ul class="breadcrumbs_list">
+        <ul class="breadcrumbs">
             <li class="breadcrumbs_item">
-                <a href="http://ved.com.ua/" class="breadcrumbs_link">Головна</a>
+                <a href="{{ url('/'}}" class="breadcrumbs__link">Головна</a>
             </li>
-            <li class="breadcrumbs_item">
-                <a href="" class="breadcrumbs_link breadcrumbs_active">Назва курсу</a>
+            <li class="breadcrumbs__item">
+                <a href="" class="breadcrumbs__link">Курс назва</a>
             </li>
         </ul>
 

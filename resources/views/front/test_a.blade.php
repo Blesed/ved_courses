@@ -11,15 +11,15 @@
     </div>
     <div class="container">
         <!--<a class="breadcrumbs" href="#">Головна сторінка / Курс / Заняття 01</a>-->
-        <ul class="breadcrumbs_list">
-            <li class="breadcrumbs_item">
-                <a href="http://ved.com.ua/" class="breadcrumbs_link">Головна</a>
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="{{ url('/'}}" class="breadcrumbs__link">Головна</a>
             </li>
             <li class="breadcrumbs_item">
-                <a href="" class="breadcrumbs_link">Курс</a>
+                <a href="{{ url('/aboute_course'}}" class="breadcrumbs__link">Курс</a>
             </li>
             <li class="breadcrumbs_item">
-                <a href="" class="breadcrumbs_link breadcrumbs_active">Заняття 01</a>
+                <a href="" class="breadcrumbs__link">Заняття 01</a>
             </li>
         </ul>
 
